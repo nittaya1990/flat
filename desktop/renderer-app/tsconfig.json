@@ -1,39 +1,11 @@
 {
+  "extends": "../../tsconfig.base.json",
   "compilerOptions": {
-    "target": "es2017",
-    "lib": ["dom", "es2017"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "module": "CommonJS",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
+    "lib": ["DOM", "ES2017", "DOM.Iterable"],
+    "module": "ESNext",
     "jsx": "react",
-    "removeComments": true,
-    "noImplicitAny": true,
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "noImplicitThis": true,
-    "noUnusedLocals": false,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "noFallthroughCasesInSwitch": true,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "strictBindCallApply": true,
-    "skipDefaultLibCheck": true,
-    "baseUrl": ".",
-    "paths": {
-      "flat-types": ["../../packages/flat-types/src"],
-      "flat-i18n": ["../../packages/flat-i18n/locales"],
-      "flat-components": ["../../packages/flat-components/src"]
-    }
+    "types": ["vite/client"]
   },
-  "exclude": ["node_modules"],
-  "include": ["src/**/*.ts", "src/**/*.tsx", "typings/*.ts"]
+  "exclude": ["node_modules", "dist", "public"],
+  "include": ["src/**/*.ts", "src/**/*.tsx", "typings/*.ts", "vite.config.ts", "scripts/**/*.ts"]
 }

@@ -2,6 +2,7 @@ module.exports = {
     version: "0.1",
     language: "en",
     words: [
+        "apprtc",
         "cspell",
         "vite",
         "vitejs",
@@ -12,8 +13,21 @@ module.exports = {
         "bootup",
         "btns",
         "topbar",
+        "titlebar",
         "typebox",
         "downloaders",
+        "Magix",
+        "quickstart",
+        "signup",
+        "dataurl",
+        "CNSVG",
+        "ENSVG",
+        "SGSVG",
+
+        // appstore
+        "flatmacrelease",
+        "provisionprofile",
+        "appstoreconnect",
 
         // wechat
         "wechat",
@@ -34,6 +48,8 @@ module.exports = {
         "lastmile",
         "onleave",
         "leavechannel",
+        "videosource",
+        "soundflower",
 
         // css / less
         "minlength",
@@ -41,10 +57,15 @@ module.exports = {
         "Quan",
         "tabpane",
         "anticon",
+        "nums",
+        "Avenir",
+        "Semibold",
 
         // whiteboard
         "unban",
         "convertcdn",
+        "fastboard",
+        "displayer",
 
         // date-fns
         "Weekiii",
@@ -57,6 +78,7 @@ module.exports = {
         "submenu",
         "unhide",
         "nsis",
+        "respawn",
 
         // file type
         "avif",
@@ -84,9 +106,36 @@ module.exports = {
         "pickone", // chance
         "viewports", // storybook
         "videojs", // @videojs/vhs-utils
+        "tele", // @netless/widnow-manager
+        "telebox",
+        "Buildin", // @netless/widnow-manager
+        "zindex", // antd
+        "geogebra", // @netless/app-geogebra
+        "mindmap", // @netless/app-mindmap
+        "commitlintrc", // @commitlint/cli
+        "unpublish", // agora-rtc-sdk-ng
+        "multipass", // svgo
+        "svglint",
+        "allowlist", // webpack-node-externals
+        "Wyri", // WyriHaximus/github-action-helm3@v2
+        "Haximus", // WyriHaximus/github-action-helm3@v2
+        "dorny", // dorny/paths-filter@v2
+        "peaceiris", // peaceiris/actions-gh-pages@v3
+        "plyr", // @netless/app-plyr
+        "lukeed", // @luckeed/uuid
+        "EXTINF",
+        "mpegurl", // hls.js
+        "wopjs", // @wopjs/dom
+        "xstate",
+        "mrmime",
+
+        // less
+        "isstring",
+        "borderless",
 
         // misc
         "npmrc",
+        "yarnrc",
         "scpt",
         "osascript",
         "blockmap",
@@ -100,6 +149,55 @@ module.exports = {
         "webfonts",
         "browserslist",
         "estree",
+        "webstorm",
+        "Frameless",
+        "micromessenger",
+        "bokeh",
+        "lintstagedrc",
+        "pnpm",
+        "emittery",
+        "APPVERSION",
+        "eslintignore",
+        "corepack",
+        "cooldown",
+
+        // CNCF
+        "nindent",
+        "kubernetes",
+        "fullname",
+        "Minikube",
+        "tolerations",
+        "Kube",
+        "agoraflat",
+        "applinks",
+        "dockerignore",
+        "DOCKERHUB",
+        "kubeconfig",
+
+        // readme
+        "customizational",
+
+        // vscode
+        "dbaeumer",
+        "keystyle",
+
+        // esbuild config
+        "metafile",
+
+        // ai teacher
+        "SVGAI",
+        "peppa",
+        "Peppa",
+        "Tian",
+        "RTCAI",
+        "Secens",
+        "haimianbaby",
+        "ironman",
+        "luotianxiaoyi",
+        "spongebob",
+        "sillybear",
+        "Tasker",
+        "Secen",
     ],
     flagWords: ["fuck", "bitch", "asshole", "bullshit", "crap", "suck", "wtf"],
     dictionaries: [
@@ -123,7 +221,7 @@ module.exports = {
         "desktop/main-app/release/**",
         "desktop/main-app/static/**",
         "cspell.config.js",
-        "yarn.lock",
+        "pnpm-lock.yaml",
         "CHANGELOG.md",
     ],
 };
